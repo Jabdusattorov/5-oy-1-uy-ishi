@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    all: inherit;
+}
+img{
+    width: 12%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.841);
+    padding: 10px 20px;
+    backdrop-filter: blur(10px);
+}
+ul{
+    display: flex;
+    min-width: 40%;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+}
+li{
+    color: white;
+    font-size: larger;
+}
+button{
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    color: rgba(22, 123, 99, 1);
+    font-weight: bold;
+}
